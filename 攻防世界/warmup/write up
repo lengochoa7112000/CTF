@@ -1,2 +1,3 @@
 难度系数: 1.0
 
+*$whitelist = ["source"=>"source.php","hint"=>"hint.php"];*
