@@ -12,7 +12,7 @@ Reload this page and notice the request in the Burp suite, you will see a specai
 
 This cookie means that this challenge verifies its user by JWT web token. Therefore, to become the admin, I need to find the secret key of this JWT token.
 
-With [jwt.io](https://jwt.io/) I find the `VERIFY SIGNATURE` of this token in mode `HMACSHA256`. Using `John`, I found the secret key is `ilovepico`
+With [jwt.io](https://jwt.io/) I found the `VERIFY SIGNATURE` of this token in mode `HMACSHA256`. Using `John`, I found the secret key is `ilovepico`
 
 ```
 $ cat jwt_picoCTF.txt
