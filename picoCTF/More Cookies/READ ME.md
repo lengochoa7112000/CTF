@@ -43,3 +43,5 @@ for i in range(128):
             break
 
 ```
+
+Read more about `Bit Flipping Attack` in this [link](https://crypto.stackexchange.com/questions/66085/bit-flipping-attack-on-cbc-mode/66086#66086)
