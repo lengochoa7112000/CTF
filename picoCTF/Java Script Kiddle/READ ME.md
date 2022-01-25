@@ -1,6 +1,6 @@
 # Java Script Kiddle
 
-Start the challenge, there is a submit box for fill something. Notice that we have some special Java Script code
+Start the challenge, there is a submit box for filling something. Notice that we have some special Java Script code
 
 ```js
 <script>
