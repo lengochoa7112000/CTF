@@ -27,7 +27,7 @@ if(isset($_COOKIE["login"])){
 }
 ```
 
-There is a cookie named `login` would be touched after our authenticate. This cookie is defined with `urlencode(base64_encode(serialize($perm_res)))`, where `$perm_res = new permissions($username, $password);`.
+There is a cookie named `login` would be touched after we authenticate. This cookie is defined with `urlencode(base64_encode(serialize($perm_res)))`, where `$perm_res = new permissions($username, $password);`.
 
 When we get an error with deserialization it will return `die("Deserialization error. ".$perm);`. Look at this `access_log` object:
 
