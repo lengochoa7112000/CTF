@@ -5,6 +5,7 @@ We have a sign in form. Try some username and password but I only get "Invalid L
 Notice that we have something in `/robots.txt`:
 
 `User-agent: *`
+
 `Disallow: /admin.phps`
 
 But nothing in `/admin.phps` or `/admin.php`. `.phps` is a hint for me. May be I can read some files that end with `phps`.
