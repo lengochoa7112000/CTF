@@ -1,7 +1,5 @@
 # warmup
 
-难度系数: 1.0
-
 查看源代码, 我们得到提示 source.php. 可以了解一下 source.php:
 
 在 class emmm 中:
