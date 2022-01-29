@@ -1,7 +1,5 @@
 # PHP2
 
-难度系数: 1.0
-
 一开始, 只有下面的要求:
 
 `Can you anthenticate to this website?`
