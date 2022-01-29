@@ -1,7 +1,5 @@
 # php_rce
 
-难度系数: 2.0
-
 本题显示信息: 版本 `ThinkPHP V5.0`.
 
 因为题目是 `php rce`, 上网查一些关于 `ThinkPHP RCE payload`, 找到 [https://github.com/SkyBlueEternal/thinkphp-RCE-POC-Collection](https://github.com/SkyBlueEternal/thinkphp-RCE-POC-Collection). 我用的是 `thinkphp 5.0.21` 的 `payload`:
