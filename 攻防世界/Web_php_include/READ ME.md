@@ -1,7 +1,5 @@
 # Web_php_include
 
-难度系数: 2.0
-
 ```php
 <?php
 show_source(__FILE__);
