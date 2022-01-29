@@ -1,7 +1,5 @@
 # Web_php_unserialize
 
-难度系数: 2.0
-
 我们需要在 index.php 代码中找到漏洞,从而拿到 flag:
 
 ```php
