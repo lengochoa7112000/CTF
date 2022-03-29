@@ -33,7 +33,9 @@
 
 `-1` 是用来清除页面, 因为 `inject=-1` 没有显示任何数据. 我们得到 `2` 个 `table` 是 `1919810931114514` 和 `words`. 以为到这应该快要成功. 显示 `table` 的 `columns`:
 
-`?inject=-1';show+columns+from+`1919810931114514`--+-`
+```
+?inject=-1';show+columns+from+1919810931114514--+-
+```
 
 ```
 array(6) {
